@@ -1,0 +1,638 @@
+/* import font */
+@font-face {
+    font-family: Avenir;
+    src: url('../fonts/Avenir-Light.ttf'),
+        url('../fonts/Avenir-Medium.ttf'),
+        url('../fonts/Avenir-Black.otf');
+}
+
+@font-face {
+    font-family: Marker-Felt;
+    src: url('../fonts/Marker\ Felt.ttf');
+}
+
+@font-face {
+    font-family: The-Bohemian-Free;
+    src: url('../fonts/TheBohemianFree.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Avenir;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    /* background-image: linear-gradient(to right, #a517ba, #7b1798); */
+    background: #0A252E;
+    cursor: pointer !important;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
+/* scrollbar css end */
+/* **************************************************** */
+/* typography css stat from here */
+/* **************************************************** */
+p,
+a,
+button {
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+/* **************************************************** */
+/* typography css end here */
+/* **************************************************** */
+
+
+
+/* **************************************************** */
+/* theme library */
+/* **************************************************** */
+.bg-gray {
+    background-color: #8A8D8F;
+}
+
+.mett-btn {
+    transition: linear .2s;
+    padding: 13px 25px;
+}
+
+.mett-btn:hover {
+    transition: linear .2s;
+    text-decoration: none;
+}
+
+.btn-gray {
+    color: #fff;
+    background-color: #8A8D8F;
+}
+
+.btn-gray:hover {
+    color: #fff;
+    background-color: #707070;
+}
+
+/* **************************************************** */
+
+
+
+/* **************************************************** */
+/* 01. stylesheet for Bodrum page */
+/* start from here */
+/* **************************************************** */
+.banner-sec {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-sec header {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.top-header {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-header li {
+    display: inline-block;
+    font-size: 16px;
+    font-family: Avenir;
+    font-weight: 900;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.top-header li i {
+    margin-right: 5px;
+}
+
+.top-header li a {
+    color: #002D72;
+    text-decoration: none;
+    background: #fff;
+    padding: 16px 30px;
+    display: block;
+    font-size: 16px;
+}
+
+.social-icon {
+    position: fixed;
+    z-index: 2;
+    right: -60px;
+    top: 50%;
+    transition: linear .3s;
+    transform: translate(0, -50%);
+}
+
+.social-icon:hover {
+    right: 0;
+    transition: linear .3s;
+}
+
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.social-icon ul:before {
+    content: url(../images/instagram-sketched.png);
+    display: block;
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 1;
+    background: #D1D1D1;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+    padding-right: 15px;
+}
+
+.social-icon ul li a {
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 40px;
+}
+
+.social-icon ul li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #fff;
+}
+
+.social-icon ul li .yt {
+    background: #FF0000;
+}
+
+.social-icon ul li .fb {
+    background: #4267B2;
+}
+
+.social-icon ul li .in {
+    background: #0073AF;
+}
+
+.social-icon ul li .pin {
+    background: #E60023;
+}
+
+.social-icon ul li .twitter {
+    background: #00ACEE;
+}
+
+.social-icon ul li .insta {
+    background: #8134AF;
+}
+
+nav {
+    position: absolute;
+    z-index: 2;
+    bottom: -70px;
+}
+
+nav button {
+    border: none;
+    background: transparent;
+    color: #002D72 !important;
+    font-size: 16px;
+    font-weight: 900 !important;
+}
+
+nav button span {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -15px;
+    top: -3px;
+    font-family: Marker-Felt;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+nav ul {}
+
+nav ul li {}
+
+nav ul li a {}
+
+.brand-logo {
+    position: absolute;
+    z-index: 1;
+    top: 76px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.brand-logo img {}
+
+.benner-text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.benner-text h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: The-Bohemian-Free;
+    color: #002D72;
+}
+
+.slider {}
+
+.slideshow {}
+
+.slideshow ul {}
+
+.slideshow ul li {}
+
+.slideshow ul li img {}
+
+.dot-navs {}
+
+.dot-navs li {}
+
+.dot-navs li a {}
+
+/* **************************************************** */
+/* end here */
+/* **************************************************** */
+/*  */
+/* **************************************************** */
+/* state section start from here */
+/* **************************************************** */
+
+.state-sec {
+    background: #8A8D8F;
+    position: relative;
+    overflow: hidden;
+}
+
+.pattern-light-left {
+    background-image: url(../images/pattern-light-left.png);
+    background-repeat: repeat-y;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.pattern-light-right {
+    background-image: url(../images/pattern-light-right.png);
+    background-repeat: repeat-y;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.state {
+    padding: 100px 0;
+    padding-bottom: 120px;
+}
+
+.state h2 {
+    margin-bottom: 80px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.state-img {
+    border: 7px solid #fff;
+}
+
+.state-img img {}
+
+.state-details {
+    padding-top: 50px;
+}
+
+.state-details h3 {
+    font-family: The-Bohemian-Free;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.state-details p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* **************************************************** */
+/* state section end here */
+/* **************************************************** */
+/*  */
+/* **************************************************** */
+/* instagram section gallery start from here */
+/* **************************************************** */
+
+.insta-sec {
+    background: radial-gradient(circle, #ffffff 0%, #8a8d8f 100%);
+    padding: 100px 0;
+}
+
+.insta-sec img {
+    padding: 8px;
+}
+
+.insta-sec h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.insta-container {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.insta-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.insta-col-1 {
+    max-width: 556px;
+}
+
+.insta-col-2 {
+    max-width: 222px;
+}
+
+.insta-col-3 {
+    width: 472px;
+}
+
+.insta-col-next-1 {
+    overflow: hidden;
+}
+
+.insta-col-next-2 {
+    overflow: hidden;
+}
+
+.insta-img1 {}
+
+.insta-img2 {
+    float: left;
+    max-width: 230px;
+}
+
+.insta-img3 {
+    float: left;
+    max-width: 326px;
+}
+
+.insta-img4 {}
+
+.insta-img5 {}
+
+.insta-img6 {}
+
+.insta-img7 {
+    max-width: 304px;
+    float: left;
+}
+
+.insta-img8 {
+    float: left;
+    max-width: 168px;
+}
+
+.insta-img9 {}
+
+/* **************************************************** */
+/* instagram section gallery end here */
+/* **************************************************** */
+/*  */
+/* **************************************************** */
+/* feature section start from here */
+/* **************************************************** */
+
+.feature-sec {
+    padding-top: 120px;
+}
+
+.stay-sec {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.stay-sec-box {
+    position: relative;
+    background: #B9B9B9;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.stay-sec h2 {
+    margin: 0;
+    position: absolute;
+    color: #002D72;
+    font-size: 60px;
+    font-weight: 700;
+    top: -50px;
+    left: 70px;
+    text-transform: uppercase;
+}
+
+.stay-sec ul {
+    margin: 0;
+    padding: 0;
+    height: 430px;
+    display: block;
+    overflow-y: auto;
+}
+
+.stay-sec ul li {
+    list-style: none;
+    display: table;
+    width: 100%;
+    padding: 20px;
+    transition: linear .2s;
+}
+
+.stay-sec ul li:hover {
+    background: #8A8D8F;
+    transition: linear .2s;
+}
+
+.stay-img {
+    display: table-cell;
+    width: 150px;
+}
+
+.stay-img img {}
+
+.stay-title {
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 15px;
+}
+
+.stay-title a {
+    font-size: 20px;
+    font-family: Poppins;
+    color: #000;
+    display: block;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.stay-title p {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.stay-title p span {
+    color: #000;
+}
+
+.stay-dtails {
+    padding: 50px 0;
+    padding-bottom: 120px;
+    display: block;
+}
+
+.stay-dtails h3 {
+    color: #8A8D8F;
+    font-family: The-Bohemian-Free;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.stay-dtails p {
+    color: #404040;
+    font-size: 18px;
+}
+
+.stay-dtails p:last-child {
+    margin-bottom: 50px;
+}
+
+.stay-dtails a {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* **************************************************** */
+/* feature section end here */
+/* **************************************************** */
+/*  */
+/* **************************************************** */
+/* VISIT US section start from */
+/* **************************************************** */
+
+.visit-sec {
+    position: relative;
+}
+
+.blue-pattern-right {
+    background-image: url(../images/pattern.png);
+    background-repeat: repeat-y;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.visit-content {
+    padding: 70px 0;
+}
+
+.visit-content h2 {
+    color: #002D72;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.visit-content img {
+    max-width: 550px;
+    margin: 35px 0;
+}
+
+.visit-content h4 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #002D72;
+    margin: 0;
+}
+
+.visit-content p {
+    color: #002D72;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.visit-content p a {
+    color: #002D72;
+    font-size: 18px;
+    font-weight: 700;
+}
+.visit-sec-visitor{
+    background-image: url(../images/shutterstock_594013649.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+
+    height: 100%;
+}
+/* **************************************************** */
+/* VISIT US section end here */
+/* **************************************************** */
