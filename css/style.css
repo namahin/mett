@@ -92,6 +92,11 @@ button {
     background-color: #707070;
 }
 
+footer {
+    background: #002D72;
+    padding: 25px 0;
+}
+
 /* **************************************************** */
 
 
@@ -116,6 +121,7 @@ button {
     margin: 0;
     padding: 0;
     list-style: none;
+    position: relative;
 }
 
 .top-header li {
@@ -222,6 +228,7 @@ nav {
     position: absolute;
     z-index: 2;
     bottom: -70px;
+    left: 0;
 }
 
 nav button {
@@ -251,7 +258,7 @@ nav ul li a {}
 .brand-logo {
     position: absolute;
     z-index: 1;
-    top: 76px;
+    bottom: -100px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -271,24 +278,55 @@ nav ul li a {}
     font-size: 50px;
     font-family: The-Bohemian-Free;
     color: #002D72;
+    text-align: center;
 }
 
-.slider {}
+.slider {
+    height: 100vh;
+}
 
-.slideshow {}
+.slider .uk-slideshow {
+    height: 100vh;
+}
+
+.slideshow {
+    height: 100vh;
+}
 
 .slideshow ul {}
 
-.slideshow ul li {}
+.slideshow ul li {
+    height: 100vh;
+}
 
 .slideshow ul li img {}
 
-.dot-navs {}
+.dot-navs {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 .dot-navs li {}
 
-.dot-navs li a {}
-
+.dot-navs li a {
+    border-color: #fff;
+}
+.uk-slideshow-items{
+    height: 100vh;
+    min-height: auto !important;
+}
+.uk-dotnav>.uk-active>* {
+    background-color: #fff;
+    border-color: #fff;
+}
+.banner-bgi{
+    background-image: url(../images/benner-bodrum.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 /* **************************************************** */
 /* end here */
 /* **************************************************** */
@@ -372,7 +410,7 @@ nav ul li a {}
 
 .insta-sec {
     background: radial-gradient(circle, #ffffff 0%, #8a8d8f 100%);
-    padding: 100px 0;
+    padding: 100px 30px;
 }
 
 .insta-sec img {
@@ -407,7 +445,7 @@ nav ul li a {}
 }
 
 .insta-col-3 {
-    width: 472px;
+    max-width: 472px;
 }
 
 .insta-col-next-1 {
@@ -625,7 +663,8 @@ nav ul li a {}
     font-size: 18px;
     font-weight: 700;
 }
-.visit-sec-visitor{
+
+.visit-sec-visitor {
     background-image: url(../images/shutterstock_594013649.png);
     background-repeat: no-repeat;
     background-position: top left;
@@ -633,6 +672,122 @@ nav ul li a {}
 
     height: 100%;
 }
+
 /* **************************************************** */
 /* VISIT US section end here */
+/* **************************************************** */
+/*  */
+/* **************************************************** */
+/* footer section start from here */
+/* **************************************************** */
+
+.footer-sec {
+    background: #8A8D8F;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-logo {}
+
+.footer-logo img {}
+
+.footer-link {}
+
+.footer-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link ul li {
+    list-style: none;
+}
+
+.footer-link ul li a {
+    transition: linear .2s;
+    color: #002D72;
+    font-weight: 600;
+}
+
+.footer-link ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+    transition: linear .2s;
+}
+
+.footer-widget {}
+
+.footer-widget p {
+    color: #002D72;
+    font-weight: 600;
+}
+
+.footer-widget form {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.footer-widget form input {
+    background: transparent;
+    border: 1px solid #002D72;
+    width: 100%;
+    color: #002D72;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.footer-widget form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 20px;
+    background: linear-gradient(180deg, #4d6a97 0%, #002d72 100%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    transition: linear .2s;
+}
+
+.footer-widget form button:hover {
+    background: linear-gradient(180deg, #002d72 0%, #4d6a97 100%);
+    transition: linear .2s;
+}
+
+.footer-widget ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.footer-widget ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+}
+
+.footer-widget ul li a {
+    color: #002D72;
+    position: relative;
+    width: 30px;
+    display: block;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #002D72;
+    transition: linear .2s;
+}
+
+.footer-widget ul li a:hover {
+    transition: linear .2s;
+    background: #fff;
+}
+
+.footer-widget ul li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* **************************************************** */
+/* footer section end here */
 /* **************************************************** */

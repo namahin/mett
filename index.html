@@ -32,18 +32,24 @@
                     <li><i class="fas fa-suitcase-rolling"></i> 2 ADULTS-0 CHILDREN</li>
                     <li>PROMOCODE</li>
                     <li><a class="btn-book" href="#">BOOK NOW</a></li>
+                    <li>
+                        <nav>
+                            <!-- dropdown btn -->
+                            <div class="uk-inline">
+                                <button class="btn-link" type="button">METT BODRUM <span>></span></button>
+                                <div class="btn-dropdown" uk-dropdown>
+                                    <ul>
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </li>
                 </ul>
-                <nav>
-                    <!-- dropdown btn -->
-                    <div class="uk-inline">
-                        <button class="btn-link" type="button">METT BODRUM <span>></span></button>
-                        <div uk-dropdown>
-                            <ul>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+
+                <div class="brand-logo">
+                    <img src="images/logo-blue.svg" alt="">
+                </div>
             </div>
         </header>
         <div class="social-icon">
@@ -57,9 +63,6 @@
                 <li><a class="insta" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
-        <div class="brand-logo">
-            <img src="images/logo-blue.svg" alt="">
-        </div>
         <div class="benner-text">
             <h1>Boho Chic</h1>
         </div>
@@ -69,15 +72,9 @@
                 <div class="uk-position-relative slideshow" tabindex="-1">
 
                     <ul class="uk-slideshow-items">
-                        <li>
-                            <img src="images/benner-bodrum.png" alt="" uk-cover>
-                        </li>
-                        <li>
-                            <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
-                        </li>
-                        <li>
-                            <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
-                        </li>
+                        <li class="banner-bgi"></li>
+                        <li class="banner-bgi"></li>
+                        <li class="banner-bgi"></li>
                     </ul>
 
                     <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin dot-navs"></ul>
@@ -89,7 +86,7 @@
     <!-- benner section start end here -->
     <!--  -->
     <!-- state section start from here -->
-    <div class="state-sec">
+    <section class="state-sec">
         <div class="pattern-light-left"></div>
         <div class="pattern-light-right"></div>
         <div class="state">
@@ -118,13 +115,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- state section end here -->
     <!-- feature section start from here -->
-    <div class="feature-sec">
+    <section class="feature-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="stay-sec">
                         <div class="stay-sec-box">
                             <h2>STAY</h2>
@@ -178,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="stay-dtails">
                         <h3>The Well Travelled</h3>
                         <p>METT Bodrum has been curated by well-travelled and
@@ -192,8 +189,8 @@
                         <a href="#" class="mett-btn btn-gray">TAKE ME THERE</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="stay-dtails text-right">
+                <div class="col-md-6 col-sm-12">
+                    <div class="stay-dtails text-md-right">
                         <h3>Dine with a View</h3>
                         <p>You are spoilt for choice at METT Bodrum, where we offer you 5 restaurants and bars across
                             the property, such as Petrium, where you can start your day with a breakfast that is
@@ -208,7 +205,7 @@
                         <a href="#" class="mett-btn btn-gray">TAKE ME THERE</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="stay-sec">
                         <h2 style="right: 70px; left: auto;">DINE</h2>
                         <div class="stay-img-lg">
@@ -216,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="stay-sec">
                         <h2>RELAX</h2>
                         <div class="stay-img-lg">
@@ -224,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="stay-dtails">
                         <h3>Wind Down</h3>
                         <p>
@@ -243,11 +240,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- feature section end here -->
     <!--  -->
     <!-- insta post section start from here -->
-    <div class="insta-sec">
+    <section class="insta-sec">
         <div class="insta-container">
             <h2>#METTSOCIALLIVING</h2>
             <div class="insta-row">
@@ -290,11 +287,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- insta post section end here -->
 
     <!-- VISIT US section start from here  -->
-    <div class="visit-sec">
+    <section class="visit-sec">
         <div class="blue-pattern-right"></div>
         <div class="row">
             <div class="col-md-6 col-sm-6">
@@ -314,9 +311,64 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- VISIT US section end here -->
 
+    <!-- footer section start from here -->
+    <section class="footer-sec py-5">
+        <div class="container py-5">
+            <div class="row pt-5">
+                <div class="col-md-3 col-sm-6 pb-5">
+                    <div class="footer-logo">
+                        <img src="images/logo-blue-pattern.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 pb-5">
+                    <div class="footer-link">
+                        <ul>
+                            <li><a href="#">About METT Social Living</a></li>
+                            <li><a href="#">Our Hotels</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Our Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 pb-5">
+                    <div class="footer-link">
+                        <ul>
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Booking Engine</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 pb-5">
+                    <div class="footer-widget">
+                        <p>Sign up for our newsletter</p>
+                        <form action="#">
+                            <input name="email" type="email" placeholder="Your email…" required>
+                            <button type="submit">Submit</button>
+                        </form>
+                        <ul>
+                            <li class="pl-0"><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">
+        <p class="m-0"></p>
+    </footer>
+    <!-- footer section end here -->
 
 
 

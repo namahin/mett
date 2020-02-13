@@ -1,0 +1,157 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .visit-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-sec {
+        padding: 0 !important;
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    nav {
+        position: relative;
+        bottom: 0;
+    }
+    .benner-text{
+        top: 60%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .top-header {
+        text-align: center;
+    }
+
+    .top-header li {
+        margin: 15px;
+        margin-bottom: 0;
+    }
+
+    .top-header li:last-child {}
+
+    .insta-sec {
+        padding: 100px 15px;
+    }
+
+    .insta-container {
+        width: 960px !important;
+    }
+
+    .insta-col-1 {
+        max-width: 426px !important;
+    }
+
+    .insta-col-2 {
+        max-width: 171px !important;
+    }
+
+    .insta-col-3 {
+        max-width: 363px !important;
+    }
+
+    .insta-img2 {
+        max-width: 177px !important;
+    }
+
+    .insta-img3 {
+        max-width: 249px !important;
+    }
+
+    .insta-img7 {
+        max-width: 232px !important;
+    }
+
+    .insta-img8 {
+        max-width: 130px !important;
+    }
+}
+
+@media (max-width: 1309.98px) {
+    .insta-container {
+        max-width: initial;
+        width: 1140px;
+    }
+
+    .insta-col-1 {
+        max-width: 505px;
+    }
+
+    .insta-col-2 {
+        max-width: 202px;
+    }
+
+    .insta-col-3 {
+        max-width: 430px;
+    }
+
+    .insta-img2 {
+        max-width: 210px;
+    }
+
+    .insta-img3 {
+        max-width: 295px;
+    }
+
+    .insta-img7 {
+        max-width: 276px;
+    }
+
+    .insta-img8 {
+        max-width: 154px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .pattern-light-left {
+        width: 70px;
+    }
+
+    .pattern-light-right {
+        width: 70px;
+    }
+
+    .insta-container {
+        width: 720px !important;
+    }
+
+    .insta-col-1 {
+        max-width: 319px !important;
+    }
+
+    .insta-col-2 {
+        max-width: 129px !important;
+    }
+
+    .insta-col-3 {
+        max-width: 272px !important;
+    }
+
+    .insta-img2 {
+        max-width: 133px !important;
+    }
+
+    .insta-img3 {
+        max-width: 186px !important;
+    }
+
+    .insta-img7 {
+        max-width: 173px !important;
+    }
+
+    .insta-img8 {
+        max-width: 99px !important;
+    }
+
+    .visit-content img {
+
+        max-width: initial;
+        width: 320px;
+    }
+}
