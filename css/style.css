@@ -94,7 +94,8 @@ button {
 
 footer {
     background: #002D72;
-    padding: 25px 0;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 /* **************************************************** */
@@ -130,7 +131,7 @@ footer {
     font-family: Avenir;
     font-weight: 900;
     color: #fff;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .top-header li i {
@@ -146,89 +147,36 @@ footer {
     font-size: 16px;
 }
 
-.social-icon {
-    position: fixed;
-    z-index: 2;
-    right: -60px;
-    top: 50%;
-    transition: linear .3s;
-    transform: translate(0, -50%);
-}
-
-.social-icon:hover {
-    right: 0;
-    transition: linear .3s;
-}
-
-.social-icon ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    position: relative;
-}
-
-.social-icon ul:before {
-    content: url(../images/instagram-sketched.png);
-    display: block;
-    width: 75px;
-    height: 65px;
-    position: absolute;
-    right: 60px;
-    top: 50%;
-    transform: translate(0, -50%);
-    z-index: 1;
-    background: #D1D1D1;
-    padding: 5px;
-    border-radius: 10px 0 0 10px;
-    padding-right: 15px;
-}
-
-.social-icon ul li a {
-    display: block;
-    position: relative;
-    width: 60px;
-    height: 40px;
-}
-
-.social-icon ul li a i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    color: #fff;
-}
-
-.social-icon ul li .yt {
-    background: #FF0000;
-}
-
-.social-icon ul li .fb {
-    background: #4267B2;
-}
-
-.social-icon ul li .in {
-    background: #0073AF;
-}
-
-.social-icon ul li .pin {
-    background: #E60023;
-}
-
-.social-icon ul li .twitter {
-    background: #00ACEE;
-}
-
-.social-icon ul li .insta {
-    background: #8134AF;
-}
-
 nav {
     position: absolute;
     z-index: 2;
     bottom: -70px;
     left: 0;
+}
+
+.insta-btn {
+    margin: 0 !important;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.insta-btn a {
+    padding: 0 !important;
+    background: transparent !important;
+    position: relative;
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff !important;
+}
+
+.insta-btn a i {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 nav button {
@@ -249,11 +197,6 @@ nav button span {
     font-weight: normal;
 }
 
-nav ul {}
-
-nav ul li {}
-
-nav ul li a {}
 
 .brand-logo {
     position: absolute;
@@ -262,8 +205,6 @@ nav ul li a {}
     left: 50%;
     transform: translate(-50%, 0);
 }
-
-.brand-logo img {}
 
 .benner-text {
     position: absolute;
@@ -293,13 +234,10 @@ nav ul li a {}
     height: 100vh;
 }
 
-.slideshow ul {}
-
 .slideshow ul li {
     height: 100vh;
 }
 
-.slideshow ul li img {}
 
 .dot-navs {
     height: 30px;
@@ -308,25 +246,27 @@ nav ul li a {}
     width: 100%;
 }
 
-.dot-navs li {}
-
 .dot-navs li a {
     border-color: #fff;
 }
-.uk-slideshow-items{
+
+.uk-slideshow-items {
     height: 100vh;
     min-height: auto !important;
 }
+
 .uk-dotnav>.uk-active>* {
     background-color: #fff;
     border-color: #fff;
 }
-.banner-bgi{
+
+.banner-bgi {
     background-image: url(../images/benner-bodrum.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
+
 /* **************************************************** */
 /* end here */
 /* **************************************************** */
@@ -381,7 +321,9 @@ nav ul li a {}
     border: 7px solid #fff;
 }
 
-.state-img img {}
+.state-img img {
+    width: 100%;
+}
 
 .state-details {
     padding-top: 50px;
@@ -414,7 +356,8 @@ nav ul li a {}
 }
 
 .insta-sec img {
-    padding: 8px;
+    border: 1px solid #70707050;
+    width: 100%;
 }
 
 .insta-sec h2 {
@@ -456,35 +399,49 @@ nav ul li a {}
     overflow: hidden;
 }
 
-.insta-img1 {}
+.insta-img1 {
+    padding: 8px;
+}
 
 .insta-img2 {
     float: left;
     max-width: 230px;
+    padding: 8px;
 }
 
 .insta-img3 {
     float: left;
     max-width: 326px;
+    padding: 8px;
 }
 
-.insta-img4 {}
+.insta-img4 {
+    padding: 8px;
+}
 
-.insta-img5 {}
+.insta-img5 {
+    padding: 8px;
+}
 
-.insta-img6 {}
+.insta-img6 {
+    padding: 8px;
+}
 
 .insta-img7 {
     max-width: 304px;
     float: left;
+    padding: 8px;
 }
 
 .insta-img8 {
     float: left;
     max-width: 168px;
+    padding: 8px;
 }
 
-.insta-img9 {}
+.insta-img9 {
+    padding: 8px;
+}
 
 /* **************************************************** */
 /* instagram section gallery end here */
@@ -547,8 +504,6 @@ nav ul li a {}
     display: table-cell;
     width: 150px;
 }
-
-.stay-img img {}
 
 .stay-title {
     vertical-align: middle;
@@ -616,33 +571,40 @@ nav ul li a {}
     position: relative;
 }
 
-.blue-pattern-right {
-    background-image: url(../images/pattern.png);
-    background-repeat: repeat-y;
-    position: absolute;
-    right: 0;
-    width: 100px;
-    top: 0;
-    bottom: 0;
-    background-size: 100%;
-    background-position: center center;
-}
-
-.visit-content {
-    padding: 70px 0;
-}
-
-.visit-content h2 {
+.visit-sec h2 {
     color: #002D72;
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.blue-pattern-top {
+    background-image: url(../images/blue-pattern-top.png);
+    background-repeat: repeat-x;
+    position: relative;
+    height: 100px;
+    background-size: contain;
+    background-position: top center;
+}
+
+.blue-pattern-bottom {
+    background-image: url(../images/blue-pattern-bottom.png);
+    background-repeat: repeat-x;
+    position: relative;
+    height: 100px;
+    background-size: contain;
+    background-position: bottom center;
+}
+
+.visit-content {
+    padding: 50px 0;
 }
 
 .visit-content img {
-    max-width: 550px;
-    margin: 35px 0;
+    width: 100%;
 }
 
 .visit-content h4 {
@@ -656,21 +618,13 @@ nav ul li a {}
     color: #002D72;
     font-size: 18px;
     font-weight: 700;
+    margin: 25px 0;
 }
 
 .visit-content p a {
     color: #002D72;
     font-size: 18px;
     font-weight: 700;
-}
-
-.visit-sec-visitor {
-    background-image: url(../images/shutterstock_594013649.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: cover;
-
-    height: 100%;
 }
 
 /* **************************************************** */
@@ -680,108 +634,43 @@ nav ul li a {}
 /* **************************************************** */
 /* footer section start from here */
 /* **************************************************** */
-
-.footer-sec {
-    background: #8A8D8F;
-    position: relative;
-    z-index: 2;
-}
-
-.footer-logo {}
-
-.footer-logo img {}
-
-.footer-link {}
-
-.footer-link ul {
+footer p {
+    color: #fff;
+    font-weight: 600;
     margin: 0;
-    padding: 0;
+    padding-top: 8px;
 }
 
-.footer-link ul li {
-    list-style: none;
-}
 
-.footer-link ul li a {
-    transition: linear .2s;
-    color: #002D72;
-    font-weight: 600;
-}
-
-.footer-link ul li a:hover {
-    text-decoration: none;
-    color: #fff;
-    transition: linear .2s;
-}
-
-.footer-widget {}
-
-.footer-widget p {
-    color: #002D72;
-    font-weight: 600;
-}
-
-.footer-widget form {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.footer-widget form input {
-    background: transparent;
-    border: 1px solid #002D72;
-    width: 100%;
-    color: #002D72;
-    padding: 10px 15px;
-    border-radius: 10px;
-}
-
-.footer-widget form button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    padding: 0 20px;
-    background: linear-gradient(180deg, #4d6a97 0%, #002d72 100%);
-    border: none;
-    color: #fff;
-    font-weight: 600;
-    transition: linear .2s;
-}
-
-.footer-widget form button:hover {
-    background: linear-gradient(180deg, #002d72 0%, #4d6a97 100%);
-    transition: linear .2s;
-}
-
-.footer-widget ul {
+footer ul {
     margin-bottom: 0;
     padding: 0;
 }
 
-.footer-widget ul li {
+footer ul li {
     list-style: none;
     display: inline-block;
     padding: 3px;
 }
 
-.footer-widget ul li a {
-    color: #002D72;
+footer ul li a {
+    color: #fff;
     position: relative;
     width: 30px;
     display: block;
     height: 30px;
     border-radius: 20px;
-    border: 1px solid #002D72;
+    border: 1px solid #fff;
     transition: linear .2s;
 }
 
-.footer-widget ul li a:hover {
+footer ul li a:hover {
     transition: linear .2s;
     background: #fff;
+    color: #002D72;
 }
 
-.footer-widget ul li a i {
+footer ul li a i {
     position: absolute;
     top: 50%;
     left: 50%;

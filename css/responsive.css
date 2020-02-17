@@ -9,6 +9,10 @@
         padding: 0 !important;
         text-align: center;
     }
+
+    footer p {
+        padding-bottom: 15px;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -17,7 +21,8 @@
         position: relative;
         bottom: 0;
     }
-    .benner-text{
+
+    .benner-text {
         top: 60%;
     }
 }
@@ -69,6 +74,11 @@
 
     .insta-img8 {
         max-width: 130px !important;
+    }
+
+    .insta-btn {
+        position: relative;
+        top: 10px;
     }
 }
 
