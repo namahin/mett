@@ -26,6 +26,8 @@
 html,
 body {
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -150,8 +152,9 @@ footer {
 nav {
     position: absolute;
     z-index: 2;
-    bottom: -70px;
+    bottom: -90px;
     left: 0;
+    display: none;
 }
 
 .insta-btn {
@@ -201,15 +204,16 @@ nav button span {
 .brand-logo {
     position: absolute;
     z-index: 1;
-    bottom: -100px;
+    bottom: -170px;
     left: 50%;
     transform: translate(-50%, 0);
+    width: 260px;
 }
 
 .benner-text {
     position: absolute;
     z-index: 1;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -276,33 +280,8 @@ nav button span {
 /* **************************************************** */
 
 .state-sec {
-    background: #8A8D8F;
     position: relative;
     overflow: hidden;
-}
-
-.pattern-light-left {
-    background-image: url(../images/pattern-light-left.png);
-    background-repeat: repeat-y;
-    position: absolute;
-    left: 0;
-    width: 100px;
-    top: 0;
-    bottom: 0;
-    background-size: 100%;
-    background-position: center center;
-}
-
-.pattern-light-right {
-    background-image: url(../images/pattern-light-right.png);
-    background-repeat: repeat-y;
-    position: absolute;
-    right: 0;
-    width: 100px;
-    top: 0;
-    bottom: 0;
-    background-size: 100%;
-    background-position: center center;
 }
 
 .state {
@@ -311,10 +290,10 @@ nav button span {
 }
 
 .state h2 {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     font-size: 60px;
     font-weight: 700;
-    color: #fff;
+    color: #002D72;
 }
 
 .state-img {
@@ -332,12 +311,13 @@ nav button span {
 .state-details h3 {
     font-family: The-Bohemian-Free;
     margin-bottom: 50px;
-    color: #fff;
+    color: #002D72;
     font-size: 28px;
+    text-align: center;
 }
 
 .state-details p {
-    color: #fff;
+    color: #002D72;
     font-size: 20px;
     margin-bottom: 0;
 }
@@ -680,3 +660,84 @@ footer ul li a i {
 /* **************************************************** */
 /* footer section end here */
 /* **************************************************** */
+
+
+/* **************************************************** */
+/* loder css */
+/* **************************************************** */
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+
+    /* **************************************************** */
+    /* loder css end */
+    /* **************************************************** */
