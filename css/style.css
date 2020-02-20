@@ -210,10 +210,10 @@ nav button span {
 .brand-logo {
     position: absolute;
     z-index: 1;
-    bottom: -170px;
+    bottom: -140px;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 260px;
+    width: 165px;
 }
 
 .benner-text {
