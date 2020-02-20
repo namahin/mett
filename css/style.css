@@ -291,6 +291,29 @@ nav button span {
     overflow: hidden;
 }
 
+.patterns {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+.pattern-scrollspy {
+    position: relative;
+    overflow: hidden;
+    transform: scale(1.1,1) rotate(180deg);
+    bottom: 80px;
+}
+
+.pattern-item {
+    width: 80px;
+    float: left;
+}
+
+.pattern-item img {
+    width: 100%;
+}
+
 .state {
     padding: 100px 0;
     padding-bottom: 120px;
@@ -747,6 +770,7 @@ footer ul li a i {
         height: 0%;
     }
 }
-    /* **************************************************** */
-    /* loder css end */
-    /* **************************************************** */
+
+/* **************************************************** */
+/* loder css end */
+/* **************************************************** */
