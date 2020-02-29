@@ -301,7 +301,7 @@ nav button span {
 .pattern-scrollspy {
     position: relative;
     overflow: hidden;
-    transform: scale(1.1,1) rotate(180deg);
+    transform: scale(1.1, 1) rotate(180deg);
     bottom: 80px;
 }
 
@@ -774,3 +774,133 @@ footer ul li a i {
 /* **************************************************** */
 /* loder css end */
 /* **************************************************** */
+
+
+
+
+* {
+    font-family: Poppins;
+}
+
+::placeholder {
+    color: #C9C9C9;
+    font-size: 14px;
+}
+
+.menu-btn {
+    background: #01ACF0;
+    border-radius: 5px;
+    transition: linear .2s;
+    margin-left: 30px !important;
+}
+
+.menu-btn:hover {
+    background: #fff;
+    color: #01ACF0;
+    transition: linear .2s;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.elementor-select-wrapper::before {
+    content: "" !important;
+}
+
+
+/* registration from */
+.reg-form {
+    text-align: right;
+    width: 100%;
+    border: 1px solid #C9C9C9 !important;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 15px 20px !important;
+    background: #fff !important;
+    margin-bottom: 15px !important;
+}
+
+.reg-form option {
+    text-align: right !important;
+}
+
+.form-group {
+    text-align: right;
+}
+
+.form-group label {
+    color: #595959 !important;
+    padding-bottom: 10px !important;
+}
+
+.user-radio {}
+
+.user-radio label {
+    display: none !important;
+}
+
+.user-btn {
+    background: #0D4EA5;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-family: poppins;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 15px;
+    transition: linear .2s;
+    box-shadow: border-box;
+}
+
+.user-btn:hover {
+    background: #0B4CA3;
+    transition: linear .2s;
+
+}
+
+.erf-content-above {
+    display: none;
+}
+
+
+/* reg-form-gander */
+.reg-form-gander {}
+
+.reg-form-gander .gander-item {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.reg-form-gander label {
+    text-align: center;
+    display: block;
+    background: #fff;
+    border: 1px solid #C9C9C9;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.reg-form-gander img {
+
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+.reg-form-gander p {
+
+    margin-bottom: 0;
+    font-size: 26px;
+    color: #0B52B2;
+    font-weight: 400;
+}

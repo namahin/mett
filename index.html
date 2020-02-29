@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="css/uikit.min.css">
     <!-- Font Awesome 5.11.2 -->
     <link rel="stylesheet" href="css/fontawesome.css">
+    <!-- plugins -->
+    <link rel="stylesheet" href="plugins/ComingSoon/css/ie.css">
+    <link rel="stylesheet" href="plugins/ComingSoon/css/loader.css">
+    <link rel="stylesheet" href="plugins/ComingSoon/css/normalize.css">
+    <link rel="stylesheet" href="plugins/ComingSoon/css/style.css">
     <!-- theme stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -86,6 +91,76 @@
     <!--  -->
     <!-- state section start from here -->
     <section class="state-sec">
+        <div class="wrapper">
+            <ul class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25"
+                data-scalar-y="15" id="scene">
+                <li class="layer" data-depth="0.00">
+                </li>
+                <!-- BG -->
+
+                <li class="layer" data-depth="0.10">
+                    <div class="background">
+                    </div>
+                </li>
+
+                <!-- Layer Animation -->
+
+                <li class="layer" data-depth="0.40">
+                    <div class="depth-1 flake1">
+                        <img height="50" width="50" alt="METT" src="plugins/ComingSoon/images/1.svg">
+                    </div>
+
+                    <div class="depth-1 flake2">
+                        <img height="50" width="50" alt="METT" src="plugins/ComingSoon/images/2.svg">
+                    </div>
+
+                    <div class="depth-1 flake3">
+                        <img height="50" width="50" alt="METT" src="plugins/ComingSoon/images/5.svg">
+                    </div>
+
+                    <div class="depth-1 flake4">
+                        <img height="50" width="50" alt="METT" src="plugins/ComingSoon/images/4.svg">
+                    </div>
+
+                </li>
+
+                <li class="layer" data-depth="0.50">
+                    <div class="depth-2 flake1">
+                        <img height="60" width="60" alt="METT" src="plugins/ComingSoon/images/8.svg">
+                    </div>
+
+                    <div class="depth-2 flake2">
+                        <img height="60" width="60" alt="METT" src="plugins/ComingSoon/images/7.svg">
+                    </div>
+
+                </li>
+
+                <li class="layer" data-depth="0.60">
+                    <div class="depth-3 flake1">
+                        <img height="70" width="70" alt="METT" src="plugins/ComingSoon/images/11.svg">
+                    </div>
+
+                    <div class="depth-3 flake2">
+                        <img height="70" width="70" alt="METT" src="plugins/ComingSoon/images/12.svg">
+                    </div>
+
+
+                </li>
+
+                <li class="layer" data-depth="0.80">
+                    <div class="depth-4">
+                        <img alt="METT" src="plugins/ComingSoon/images/cloud-02.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="1.00">
+                    <div class="depth-5">
+                        <img alt="METT" src="plugins/ComingSoon/images/cloud-01.png">
+                    </div>
+                </li>
+                <!-- Contact -->
+            </ul>
+        </div>
         <div class="patterns">
             <div class="pattern-scrollspy"
                 uk-scrollspy="target: > div; cls: uk-animation-slide-top; delay: 25; repeat: true">
@@ -336,6 +411,7 @@
             </div>
         </div>
     </section>
+
     <!-- state section end here -->
     <!-- feature section start from here -->
     <section class="feature-sec">
@@ -578,6 +654,12 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/uikit.min.js"></script>
+    <!-- plugins -->
+    <script src="plugins/ComingSoon/js/jquery.js"></script>
+    <script src="plugins/ComingSoon/js/plugins.js"></script>
+    <script src="plugins/ComingSoon/js/jquery.countdown.min.js"></script>
+    <script src="plugins/ComingSoon/js/main.js"></script>
+    <!--  -->
     <script src="js/main.js"></script>
     <script>
         new WOW().init();
