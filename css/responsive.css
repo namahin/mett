@@ -13,6 +13,11 @@
     footer p {
         padding-bottom: 15px;
     }
+    .brand-logo{
+        left: 30px;
+        transform: translate(0, -20px);
+        width: 120px
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
