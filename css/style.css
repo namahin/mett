@@ -124,6 +124,7 @@ footer {
     position: absolute;
     width: 100%;
     z-index: 5;
+    background: #000000;
 }
 
 .top-header {
@@ -147,9 +148,8 @@ footer {
 }
 
 .top-header li a {
-    color: #002D72;
-    text-decoration: none;
-    background: #fff;
+    color: #fff;
+    background: #8A8D8F;
     padding: 10px 40px;
     display: block;
     font-size: 15px;
@@ -231,6 +231,13 @@ nav button span {
     color: #002D72;
     text-align: center;
     font-weight: bold;
+}
+
+.benner-text h2 {
+    font-family: Avenir;
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 0px;
 }
 
 .slider {
@@ -903,4 +910,34 @@ input[type=number] {
     font-size: 26px;
     color: #0B52B2;
     font-weight: 400;
+}
+
+/* ***************************** */
+.about-content-sec {
+    background-image: url(../images/Mett_Pattern_Gradient.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.about-content-sec h2 {
+    font-family: The Bohemian Free;
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 3;
+    padding-bottom: 20px;
+}
+
+.about-content-sec p {
+    color: #002D72;
+    font-size: 20px;
+    font-family: Avenir;
+}
+.file-photo{
+
+}
+.file-photo img{
+    border: 1px solid #009898;
 }
