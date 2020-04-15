@@ -935,9 +935,76 @@ input[type=number] {
     font-size: 20px;
     font-family: Avenir;
 }
-.file-photo{
 
-}
-.file-photo img{
+.file-photo {}
+
+.file-photo img {
     border: 1px solid #009898;
+}
+
+.border-brown {}
+
+.border-brown img {
+    border: 1px solid #C2A290;
+}
+
+.dine-photo-content {}
+
+.dine-photo-content h3 {
+    font-size:
+        30px;
+    line-height: 38px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.dine-photo-content h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    margin-top: 0;
+}
+
+.dine-photo-content h6 {
+    color: #707070;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.dine-photo-content p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.dine-photo-content ul {
+    padding: 0;
+    list-style: none;
+}
+
+.dine-photo-content ul li {}
+
+.dine-photo-content ul li a {
+    background: #1BB8B8;
+    color: #fff;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.dine-photo-content ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.dine-photo-content ol li {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
 }
