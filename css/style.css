@@ -1008,3 +1008,18 @@ input[type=number] {
     color: #707070;
     font-weight: 400;
 }
+
+.spa-group {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.spa-group img {
+    margin-right: 1%;
+    width: 19%;
+}
+
+.spa-group img:last-child {
+    margin-right: 0%;
+}
