@@ -1023,3 +1023,30 @@ input[type=number] {
 .spa-group img:last-child {
     margin-right: 0%;
 }
+
+.room-view {}
+
+.room-slider {}
+
+.room-slider a {}
+
+.room-content {}
+
+.room-content h2 {
+    color: #8A8D8F;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+.room-content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 70px;
+    color: #404040;
+    font-weight: 300;
+}
+
+.room-content a {}
