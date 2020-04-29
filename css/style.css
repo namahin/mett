@@ -877,8 +877,6 @@ input[type=number] {
     padding-bottom: 10px !important;
 }
 
-.user-radio {}
-
 .user-radio label {
     display: none !important;
 }
@@ -908,8 +906,6 @@ input[type=number] {
 
 
 /* reg-form-gander */
-.reg-form-gander {}
-
 .reg-form-gander .gander-item {
     width: 33.33%;
     float: left;
@@ -964,19 +960,14 @@ input[type=number] {
     font-family: Avenir;
 }
 
-.file-photo {}
-
 .file-photo img {
     border: 2px solid #009898;
 }
 
-.border-brown {}
-
 .border-brown img {
     border: 1px solid #C2A290;
+    width: 100%;
 }
-
-.dine-photo-content {}
 
 .dine-photo-content h3 {
     font-size:
@@ -1012,8 +1003,6 @@ input[type=number] {
     padding: 0;
     list-style: none;
 }
-
-.dine-photo-content ul li {}
 
 .dine-photo-content ul li a {
     background: #1BB8B8;
@@ -1052,14 +1041,6 @@ input[type=number] {
     margin-right: 0%;
 }
 
-.room-view {}
-
-.room-slider {}
-
-.room-slider a {}
-
-.room-content {}
-
 .room-content h2 {
     color: #8A8D8F;
     font-size: 40px;
@@ -1076,5 +1057,3 @@ input[type=number] {
     color: #404040;
     font-weight: 300;
 }
-
-.room-content a {}

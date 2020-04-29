@@ -41,15 +41,24 @@
     .top-header {
         padding: 10px 0;
     }
-    .about-content-sec h2{
-       font-size: 25px !important;
+
+    .about-content-sec h2 {
+        font-size: 25px !important;
         font-weight: bold;
     }
-    .inner-benner-text {}
 
-    .inner-benner-text h1 {}
+    .file-photo img {
 
-    .inner-benner-text h2 {}
+        margin-bottom: 15px !important;
+    }
+
+    .visit-content {
+        padding: 0;
+    }
+
+    .visit-content img {
+        width: 100% !important;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -64,7 +73,7 @@
     }
 
     .inner-benner-text {
-        padding-top: 50px;
+        padding-top: 120px;
     }
 
     .inner-benner-text h1 {
@@ -87,8 +96,6 @@
         margin: 15px;
         margin-bottom: 0;
     }
-
-    .top-header li:last-child {}
 
     .insta-sec {
         padding: 100px 15px;
@@ -214,7 +221,8 @@
         max-width: initial;
         width: 320px;
     }
-    .about-content-sec h2{
-       font-size: 40px;
+
+    .about-content-sec h2 {
+        font-size: 40px;
     }
 }
