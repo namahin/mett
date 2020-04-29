@@ -13,11 +13,43 @@
     footer p {
         padding-bottom: 15px;
     }
-    .brand-logo{
+
+    .brand-logo {
         left: 30px;
         transform: translate(0, -20px);
         width: 120px
     }
+
+    .top-header li {
+        margin: 5px 10px !important;
+        font-size: 14px;
+    }
+
+    .top-header li:last-child {
+        margin: 0 !important;
+    }
+
+    .insta-btn {
+        top: 14px !important;
+    }
+
+    .top-header li a {
+
+        padding: 10px 20px;
+    }
+
+    .top-header {
+        padding: 10px 0;
+    }
+    .about-content-sec h2{
+       font-size: 25px !important;
+        font-weight: bold;
+    }
+    .inner-benner-text {}
+
+    .inner-benner-text h1 {}
+
+    .inner-benner-text h2 {}
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -29,6 +61,19 @@
 
     .benner-text {
         top: 60%;
+    }
+
+    .inner-benner-text {
+        padding-top: 50px;
+    }
+
+    .inner-benner-text h1 {
+        font-size: 56px;
+        margin-bottom: 10px;
+    }
+
+    .inner-benner-text h2 {
+        font-size: 30px;
     }
 }
 
@@ -168,5 +213,8 @@
 
         max-width: initial;
         width: 320px;
+    }
+    .about-content-sec h2{
+       font-size: 40px;
     }
 }
