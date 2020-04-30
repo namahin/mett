@@ -38,6 +38,9 @@
     <link rel="stylesheet" href="plugins/ComingSoon/css/loader.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/normalize.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/style.css">
+    <link rel="stylesheet" href="css/hotel-datepicker.css">
+    <link rel="stylesheet" href="css/t-datepicker.min.css">
+    <link rel="stylesheet" href="css/t-datepicker-blue.css">
     <!-- theme stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -47,12 +50,6 @@
 </head>
 
 <body>
-    <!-- loader -->
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
-    <!-- loader end -->
-
     <!-- benner section start from here -->
     <section class="banner-sec">
         <header class="bg-gray">
@@ -169,7 +166,11 @@
                             air-condition, free WiFi, SAT-TV, minibar (at extra charge), free safe, coffee machine (at
                             extra charge), bathroom with shower, hairdryer, robes and slippers, direct dial telephone
                             (at extra charge) for max. 2 adults.</p>
-                        <a href="#" class="mett-btn btn-gray">ENTER DATES</a>
+                        <div class="t-datepicker">
+                            <div class="t-check-in"></div>
+                            <div class="t-check-out"></div>
+                        </div>
+                        <!-- <input id="datepicker" type="button" class="mett-btn btn-gray" value="ENTER DATES"> -->
                     </div>
                 </div>
                 <div class="col-md-6 pb-5 mb-md-5 pr-md-5">
@@ -412,11 +413,22 @@
     <script src="plugins/ComingSoon/js/plugins.js"></script>
     <script src="plugins/ComingSoon/js/jquery.countdown.min.js"></script>
     <script src="plugins/ComingSoon/js/main.js"></script>
+
     <!--  -->
     <script src="js/main.js"></script>
+    <script src="js/t-datepicker.min.js"></script>
     <script>
         new WOW().init();
+
+        $(document).ready(function () {
+            // Call global the function
+            $('.t-datepicker').tDatePicker({
+                // options here
+            });
+        });
     </script>
+
+
 </body>
 
 </html>
