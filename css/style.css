@@ -253,18 +253,19 @@ nav button span {
 }
 
 .inner-benner-text h1 {
-    font-size: 100px;
-    letter-spacing: 2px;
-    font-family: 'Avenir';
-    font-weight: bold;
-    line-height: 1.2;
     margin-bottom: 25px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #002D72;
+    letter-spacing: 1px;
+    line-height: 1;
 }
 
 .inner-benner-text h2 {
-    font-size: 60px;
-    font-family: The Bohemian Free;
-    line-height: 90px;
+    font-family: Black-Angel;
+    color: #002D72;
+    font-size: 72px;
+    text-align: center;
     font-weight: bold;
 }
 
