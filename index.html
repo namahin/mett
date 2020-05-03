@@ -38,7 +38,6 @@
     <link rel="stylesheet" href="plugins/ComingSoon/css/loader.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/normalize.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/style.css">
-    <link rel="stylesheet" href="css/hotel-datepicker.css">
     <link rel="stylesheet" href="css/t-datepicker.min.css">
     <link rel="stylesheet" href="css/t-datepicker-bluegrey.css">
     <!-- theme stylesheet -->
@@ -61,17 +60,16 @@
         <header class="bg-gray">
             <div class="container">
                 <ul class="top-header">
-                    <li><i class="fas fa-map-marker-alt"></i>
-                        <!-- <div uk-form-custom="target: true"> -->
-                        <select class="place-selector">
-                            <option value="">BODRUM, TURKEY</option>
-                            <option value="">MARRAKECH, MOROCCO</option>
-                            <option value="">SARDINIA, ITALY</option>
-                            <option value="">POSITANO, ITALY</option>
-                            <option value="">MYKONOS, GREECE</option>
-                        </select>
-                        <!-- <span></span> -->
-                        <!-- </div> -->
+
+                    <li class="uk-inline">
+                        <button class="reset-style-btn"><i class="fas fa-map-marker-alt"></i> BODRUM, TURKEY</button>
+                        <div class="cart-option" uk-dropdown="mode: click; pos:bottom-left;">
+                            <a class="place-link" href="#">BODRUM, TURKEY</a>
+                            <a class="place-link" href="#">MARRAKECH, MOROCCO</a>
+                            <a class="place-link" href="#">SARDINIA, ITALY</a>
+                            <a class="place-link" href="#">POSITANO, ITALY</a>
+                            <a class="place-link" href="#">MYKONOS, GREECE</a>
+                        </div>
                     </li>
 
                     <li><i class="far fa-calendar-alt"></i>
@@ -97,7 +95,7 @@
                         </div>
                     </li>
                     <li><a class="btn-book" href="#">BOOK NOW</a></li>
-                    <li class="insta-btn"><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                    <li class="insta-btn"><a href="#" target="_blank" rel="noopener noreferrer"><i
                                 class="fab fa-instagram"></i></a></li>
                     <li>
                         <nav>

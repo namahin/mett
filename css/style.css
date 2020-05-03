@@ -133,6 +133,9 @@ footer {
     list-style: none;
     position: relative;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .top-header li {
@@ -151,7 +154,7 @@ footer {
 .top-header li a {
     color: #fff;
     background: #8A8D8F;
-    padding: 10px 40px;
+    padding: 15px 40px;
     display: block;
     font-size: 15px;
 }
@@ -167,8 +170,8 @@ nav {
 .insta-btn {
 
     margin: 0 !important;
-    position: absolute;
-    top: 5px;
+    /*! position: absolute; */
+    /*! top: 5px; */
 }
 
 .insta-btn a {
@@ -1199,4 +1202,16 @@ input[type=number] {
     color: #fff;
     text-transform: uppercase;
     line-height: auto;
+}
+
+.cart-option .place-link {
+    background: none;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 8px;
+    opacity: 0.9;
+}
+
+.cart-option .place-link:last-child {
+    margin-bottom: 0;
 }

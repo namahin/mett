@@ -90,6 +90,7 @@
 @media (max-width: 1199.98px) {
     .top-header {
         text-align: center;
+        display: block;
     }
 
     .top-header li {
