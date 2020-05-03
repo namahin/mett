@@ -38,6 +38,9 @@
     <link rel="stylesheet" href="plugins/ComingSoon/css/loader.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/normalize.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/style.css">
+    <link rel="stylesheet" href="css/hotel-datepicker.css">
+    <link rel="stylesheet" href="css/t-datepicker.min.css">
+    <link rel="stylesheet" href="css/t-datepicker-blue.css">
     <!-- theme stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -273,7 +276,6 @@
 
 
 
-
     <!-- js files -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -285,11 +287,21 @@
     <script src="plugins/ComingSoon/js/plugins.js"></script>
     <script src="plugins/ComingSoon/js/jquery.countdown.min.js"></script>
     <script src="plugins/ComingSoon/js/main.js"></script>
+
     <!--  -->
     <script src="js/main.js"></script>
+    <script src="js/t-datepicker.min.js"></script>
     <script>
         new WOW().init();
+
+        $(document).ready(function () {
+            // Call global the function
+            $('.t-datepicker').tDatePicker({
+                // options here
+            });
+        });
     </script>
+
 </body>
 
 </html>

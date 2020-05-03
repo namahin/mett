@@ -38,6 +38,9 @@
     <link rel="stylesheet" href="plugins/ComingSoon/css/loader.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/normalize.css">
     <link rel="stylesheet" href="plugins/ComingSoon/css/style.css">
+    <link rel="stylesheet" href="css/hotel-datepicker.css">
+    <link rel="stylesheet" href="css/t-datepicker.min.css">
+    <link rel="stylesheet" href="css/t-datepicker-bluegrey.css">
     <!-- theme stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -59,7 +62,13 @@
             <div class="container">
                 <ul class="top-header">
                     <li><i class="fas fa-map-marker-alt"></i> BODRUM, TURKEY</li>
-                    <li><i class="far fa-calendar-alt"></i> CHECK IN - CHECK OUT</li>
+
+                    <li><i class="far fa-calendar-alt"></i>
+                        <div class="t-datepicker">
+                            <div class="t-check-in"></div>
+                            <div class="t-check-out"></div>
+                        </div>
+                    </li>
                     <li><i class="fas fa-suitcase-rolling"></i> 2 ADULTS-0 CHILDREN</li>
                     <li>PROMOCODE</li>
                     <li><a class="btn-book" href="#">BOOK NOW</a></li>
@@ -450,11 +459,21 @@
     <script src="plugins/ComingSoon/js/plugins.js"></script>
     <script src="plugins/ComingSoon/js/jquery.countdown.min.js"></script>
     <script src="plugins/ComingSoon/js/main.js"></script>
+
     <!--  -->
     <script src="js/main.js"></script>
+    <script src="js/t-datepicker.min.js"></script>
     <script>
         new WOW().init();
+
+        $(document).ready(function () {
+            // Call global the function
+            $('.t-datepicker').tDatePicker({
+                // options here
+            });
+        });
     </script>
+
 </body>
 
 </html>

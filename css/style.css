@@ -132,6 +132,7 @@ footer {
     padding: 0;
     list-style: none;
     position: relative;
+    text-align: center;
 }
 
 .top-header li {
@@ -1057,4 +1058,54 @@ input[type=number] {
     margin-bottom: 70px;
     color: #404040;
     font-weight: 300;
+}
+
+/* date picker */
+.t-datepicker {
+    border: none;
+    width: auto;
+    float: right;
+    line-height: initial;
+}
+
+.t-check-in {
+    border: none;
+    width: auto;
+    font-weight: normal;
+}
+
+.t-check-out {
+    border: none;
+    width: auto;
+    font-weight: normal;
+}
+
+.t-dates {
+    padding: 0 8px;
+    height: auto;
+    display: table;
+}
+
+.t-date-info-title {
+
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    opacity: 1 !important;
+    font-size: inherit !important;
+    margin: 0;
+    display: table-cell !important;
+    padding-left: 8px;
+}
+
+.t-day {
+    color: #607D8B;
+}
+
+.t-table-condensed thead {
+    color: #666;
+}
+
+.t-highlighted {
+    background: gainsboro;
 }
