@@ -814,11 +814,6 @@ footer ul li a i {
 
 
 
-
-* {
-    font-family: Poppins;
-}
-
 ::placeholder {
     color: #C9C9C9;
     font-size: 14px;
@@ -1084,6 +1079,9 @@ input[type=number] {
     padding: 0 8px;
     height: auto;
     display: table;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .t-date-info-title {
@@ -1092,10 +1090,13 @@ input[type=number] {
     top: auto !important;
     left: auto !important;
     opacity: 1 !important;
-    font-size: inherit !important;
     margin: 0;
     display: table-cell !important;
     padding-left: 8px;
+    font-family: Avenir;
+    font-size: 15px !important;
+    font-weight: 900 !important;
+    text-transform: uppercase;
 }
 
 .t-day {
