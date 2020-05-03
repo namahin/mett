@@ -61,7 +61,18 @@
         <header class="bg-gray">
             <div class="container">
                 <ul class="top-header">
-                    <li><i class="fas fa-map-marker-alt"></i> BODRUM, TURKEY</li>
+                    <li><i class="fas fa-map-marker-alt"></i>
+                        <!-- <div uk-form-custom="target: true"> -->
+                        <select class="place-selector">
+                            <option value="">BODRUM, TURKEY</option>
+                            <option value="">MARRAKECH, MOROCCO</option>
+                            <option value="">SARDINIA, ITALY</option>
+                            <option value="">POSITANO, ITALY</option>
+                            <option value="">MYKONOS, GREECE</option>
+                        </select>
+                        <!-- <span></span> -->
+                        <!-- </div> -->
+                    </li>
 
                     <li><i class="far fa-calendar-alt"></i>
                         <div class="t-datepicker">
@@ -69,8 +80,22 @@
                             <div class="t-check-out"></div>
                         </div>
                     </li>
-                    <li><i class="fas fa-suitcase-rolling"></i> 2 ADULTS-0 CHILDREN</li>
-                    <li>PROMOCODE</li>
+                    <li class="uk-inline">
+                        <button class="reset-style-btn"><i class="fas fa-suitcase-rolling"></i> <span>2</span> ADULTS,
+                            <span>2</span> CHILDREN</button>
+                        <div class="cart-option" uk-dropdown="mode: click">
+                            <ul>
+                                <li><span>2</span> <span>ADULTS</span><button>-</button><button>+</button></li>
+                                <li><span>2</span> <span>CHILDREN</span><button>-</button><button>+</button></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="uk-inline">
+                        <button class="reset-style-btn">PROMOCODE</button>
+                        <div class="cart-option" uk-dropdown="mode: click; pos:bottom-right;">
+                            <input type="text" class="promo" placeholder="Insert promocode here">
+                        </div>
+                    </li>
                     <li><a class="btn-book" href="#">BOOK NOW</a></li>
                     <li class="insta-btn"><a href="http://" target="_blank" rel="noopener noreferrer"><i
                                 class="fab fa-instagram"></i></a></li>
